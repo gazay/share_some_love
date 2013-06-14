@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    share_some_love (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  share_some_love!
