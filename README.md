@@ -1,5 +1,7 @@
 # Share some love
 
+Share some love to our buddies rubyists!
+
 ## Contributors
 
 * @gazay
