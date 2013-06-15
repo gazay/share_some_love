@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+exec "share_some_love #{ARGV.join(' ')}"
