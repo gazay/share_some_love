@@ -24,7 +24,7 @@ EOF
 EOF
 
     def share_for(args)
-      if args.include 'site'
+      if args.include? 'site'
         share_for_site
       else
         share_for_gem
