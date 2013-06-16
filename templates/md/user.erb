@@ -1,0 +1,10 @@
+<%- if image.present? %>
+  ![<%= who %>](<%= image %>)
+<%- end %>
+<%= begin_thanking %>
+<%- if blod %>
+  **<%= who %>**
+<%- else %>
+  <%= who %>
+<%- end %>
+<%= finish_thanking %>

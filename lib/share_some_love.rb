@@ -21,6 +21,15 @@ EOF
   <%= '<3' * rand(10) %>
 </div>
 EOF
+  THANKS_CONTRIB =<<EOF
+<br><br><br>
+<div class='thank-you contributors'>
+  <%= '<3' * rand(10) %>
+  Also I want to thank all contributors, who post issues and send pull requests! Wihtout you this <=% what %> can not be so awesome!
+  <%= contributors %>
+  <%= '<3' * rand(10) %>
+</div>
+EOF
 
   TEMPLATE_MD =<<EOF
 ### Thank you all, guys and girls!!! Luv u!</title>
@@ -123,6 +132,11 @@ EOF
       thanks << ERB.new(template).result(b)
     end
     thanks
+  end
+
+  # WIP
+  def thanks_to_contributors
+    thanks = ''
   end
 
 end
