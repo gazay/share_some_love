@@ -32,7 +32,7 @@ EOF
   attr_reader :by_gemname, :for_site
 
   def initialize(by_gemname, for_site)
-    @by_gemname = by_what
+    @by_gemname = by_gemname
     parse_gemfile
 
     if for_site
