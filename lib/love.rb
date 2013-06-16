@@ -24,6 +24,7 @@ EOF
 EOF
 
     def share_for(args)
+      @by_gemname = args.include? 'by_gem'
       if args.include? 'site'
         share_for_site
       else
@@ -32,21 +33,12 @@ EOF
     end
 
     def share_for_site
-      @specs = Bundler.setup.specs
-      @authors = {}
-      @specs.each { |sp| @authors[sp.name] = sp.authors }
-      thanks = ''
-      @authors.each do |gem, authors|
-        who = \
-          if authors.count > 1
-            'these cool and creative people'
-          else
-            'this cool and creative person'
-          end
-        what = "this awesome gem - #{gem}"
-        b = binding
-        thanks << ERB.new(THANKS).result(b)
-      end
+      thanks = \
+        if @by_gemname
+          thanks_by_gemname
+        else
+          thanks_by_author
+        end
       b = binding
       File.open('./public/love.html', 'w+') do |f|
         f.write ERB.new(TEMPLATE).result(b)
@@ -58,7 +50,47 @@ EOF
     end
 
     def parse_gemfile
+      @gems_with_authors = {}
+      @authors_with_gems = {}
+      Bundler.setup.specs.each { |sp| @gems_with_authors[sp.name] = sp.authors }
+      @gems_with_authors.each do |gem, authors|
+        authors.each do |author|
+          @authors_with_gems[author] ||= []
+          @authors_with_gems[author] << gem
+        end
+      end
+    end
 
+    def thanks_by_gemname
+      thanks = ''
+      @gems_with_authors.each do |gem, authors|
+        who = \
+          if authors.count > 1
+            "these cool and creative people: #{authors.join(', ')}"
+          else
+            "this cool and creative person #{authors.first}"
+          end
+        what = "this awesome gem - #{gem}"
+        b = binding
+        thanks << ERB.new(THANKS).result(b)
+      end
+      thanks
+    end
+
+    def thanks_by_authors
+      thanks = ''
+      @authors_with_gems.each do |author, gems|
+        who = "my mate #{author}"
+        what = \
+          if gems.count > 1
+            "these great libraries: #{gems.join(', ')}! Wow man! You awesome!"
+          else
+            "this helpful and useful gem - #{gems.first}"
+          end
+        b = binding
+        thanks << ERB.new(THANKS).result(b)
+      end
+      thanks
     end
 
   end
