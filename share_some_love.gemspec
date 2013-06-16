@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "love/version"
+require "share_some_love/version"
 
 Gem::Specification.new do |s|
   s.name        = "share_some_love"
-  s.version     = Love::VERSION
+  s.version     = ShareSomeLove::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['gazay']
   s.email       = ['alex.gaziev@gmail.com']
