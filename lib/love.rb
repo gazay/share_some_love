@@ -16,11 +16,22 @@ class Love
 EOF
   THANKS =<<EOF
 <div class='thank-you'>
-  I'd like to thank <%= who %> for creating and maintaining <%= what %>.
+  I'd like to thank <b><%= who %></b> for creating and maintaining <b><%= what %></b>.
   I wanna hug you someday and say in person what great job you done!
   <%= '<3' * rand(10) %>
 </div>
 EOF
+
+  TEMPLATE_MD =<<EOF
+### Thank you all, guys and girls!!! Luv u!</title>
+<%= thanks %>
+EOF
+  THANKS_MD =<<EOF
+I'd like to thank <%= who %> for creating and maintaining <%= what %>.
+I wanna hug you someday and say in person what great job you done!
+<%= '<3' * rand(10) %>
+EOF
+
 
   def self.share_for(args)
     by_gemname = args.include? 'by_gem'
@@ -56,7 +67,16 @@ EOF
   end
 
   def share_for_gem
-
+    thanks = \
+      if by_gemname
+        thanks_by_gemname
+      else
+        thanks_by_author
+      end
+    b = binding
+    File.open('./LOVE.md', 'w+') do |f|
+      f.write ERB.new(TEMPLATE_MD).result(b)
+    end
   end
 
   def parse_gemfile
@@ -73,6 +93,7 @@ EOF
 
   def thanks_by_gemname
     thanks = ''
+    template = for_site ? THANKS : THANKS_MD
     @gems_with_authors.each do |gem, authors|
       who = \
         if authors.count > 1
@@ -82,13 +103,14 @@ EOF
         end
       what = "this awesome gem - #{gem}"
       b = binding
-      thanks << ERB.new(THANKS).result(b)
+      thanks << ERB.new(template).result(b)
     end
     thanks
   end
 
   def thanks_by_author
     thanks = ''
+    template = for_site ? THANKS : THANKS_MD
     @authors_with_gems.each do |author, gems|
       who = "my mate #{author}"
       what = \
@@ -98,7 +120,7 @@ EOF
           "this helpful and useful gem - #{gems.first}"
         end
       b = binding
-      thanks << ERB.new(THANKS).result(b)
+      thanks << ERB.new(template).result(b)
     end
     thanks
   end
