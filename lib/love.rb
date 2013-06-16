@@ -77,7 +77,7 @@ EOF
       thanks
     end
 
-    def thanks_by_authors
+    def thanks_by_author
       thanks = ''
       @authors_with_gems.each do |author, gems|
         who = "my mate #{author}"
