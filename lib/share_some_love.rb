@@ -65,6 +65,8 @@ EOF
   end
 
   def share_for_site
+    title = ShareSomeLove::ThankWords.title_thanks
+    styles = ERB.new(File.read(
     thanks = \
       if by_gemname
         thanks_by_gemname
