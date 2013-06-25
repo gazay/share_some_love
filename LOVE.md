@@ -72,4 +72,14 @@
    for making my life easier by creating **share_some_love**.
 
    I wanna hug you someday and say in person what great job you done!
+   
+   
+These thanks all from me - gazay
+
+         .        }   ~ .__,~O     ` ~ _   ~  ^  ~  -   
+                `}` - =    /#/`-'     -   ~   =   ~  _ ~
+           ~ .   }   ~ -   |^\   _ ~ _  - ~ -_  =  _  
+                }`  _____ /_  /____ - ~ _   ~ _ 
+        jgs   }`   `~~~~~~~~~~~~~~~`_ = _ ~ -
+
 
