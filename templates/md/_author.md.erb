@@ -1,0 +1,9 @@
+*  <% if author.info %>
+     ![<%= author.name %>](<%= author.info.avatar_url %>)
+     Follow on github: [<%= "@#{author.info.login}" %>](http://github.com/<%= author.info.login %>)
+   <% end %>
+   <%= ThankWords.begin_author %> **<%= author.name %>** <%= ThankWords.middle_author %>
+
+   <%= author.gems.map(&:name).map { |it| "**#{it}**" }.join(', ') %>.
+
+   <%= ThankWords.end_author %>

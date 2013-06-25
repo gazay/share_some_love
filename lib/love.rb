@@ -1,47 +1,55 @@
 require 'bundler'
 require 'pathname'
+require 'erb'
+require 'yaml'
 
-class Love
+module Love
+  class << self
 
-  def self.share_for(args)
-    by_gemname = args.include? 'by_gem'
-    for_site = args.include? 'site'
+    attr_reader :by_gemname, :for_site, :gems, :authors, :root, :lang
 
-    self.lets_start_from_heart!
+    def share_for(args)
+      by_gemname = args.include? 'by_gem'
+      for_site = args.include? 'site'
 
-    self.new by_gemname, for_site
-  end
+      @by_gemname = by_gemname
+      @for_site = for_site
+      @root = Pathname(__FILE__).parent
+      @lang = 'en'
+      @gems = []
+      @authors = []
 
-  def self.lets_start_from_heart!
-    puts File.read('./hearts/ascii1.txt')
-  end
+      lets_start_from_heart!
 
-  attr_reader :by_gemname, :for_site, :gems, :authors, :root
-
-  def initialize(by_gemname, for_site)
-    @by_gemname = by_gemname
-    @for_site = for_site
-    @root = Pathname(__FILE__).parent
-
-    parse_gemfile
-    share_love
-  end
-
-  def parse_gemfile
-    Bundler.setup.specs.each do |spec|
-      gem = Love::Gem.new(spec)
-      @gems << gem
-      @authors << gem.authors
+      parse_gemfile
+      share_love
     end
-    @authors = @authors.flatten.uniq
-  end
 
-  def share_love
-    if for_site
-      Love::Site.create_file
-    else
-      Love::Gem.create_file
+    def lets_start_from_heart!
+      puts File.read(Love.root.join '../hearts/ascii1.txt')
     end
-  end
 
+    def parse_gemfile
+      Bundler.setup.specs.each do |spec|
+        gem = Love::Gem.new(spec)
+        @gems << gem
+        @authors << gem.authors
+      end
+      @authors = @authors.flatten.uniq
+    end
+
+    def share_love
+      if for_site
+        Love::Site.create_file
+      else
+        Love::Share.md by_gemname
+      end
+    end
+
+  end
 end
+
+require 'love/author'
+require 'love/gem'
+require 'love/thank_words'
+require 'love/share'

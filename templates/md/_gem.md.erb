@@ -1,0 +1,11 @@
+*  <% if gem.authors.all?(&:info) %>
+     <% gem.authors.each do |author| %>
+       ![<%= author.name %>](<%= author.info.avatar_url %>)
+     <% end %>
+   <% end %>
+
+   <%= ThankWords.begin_author %> <%= gem.authors.map(&:name).map { |it| "**#{it}**" }.join(', ') %> <%= ThankWords.middle_author %>
+
+   **<%= gem.name %>**.
+
+   <%= ThankWords.end_author %>

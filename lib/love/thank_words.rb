@@ -1,23 +1,20 @@
-class Love
+module Love
   module ThankWords
-
-    THANK_WORDS = YAML.read_file(Love.root.join "thank_words/#{Love.lang}.yml")
-
     class << self
 
       def title_thanks
         find_words('title_thanks')
       end
 
-      def begin_phrase_for_author
+      def begin_author
         find_words('begin_author')
       end
 
-      def connect_author_with_gem_phrase
+      def middle_author
         find_words('middle_author')
       end
 
-      def end_phrase_for_author
+      def end_author
         find_words('end_author')
       end
 
@@ -40,7 +37,13 @@ class Love
       private
 
       def find_words(area)
-        THANK_WORDS[area][rand(THANK_WORDS[area].length)]
+        fill_thank_words unless defined?(@thank_words)
+        @thank_words[area].to_a[rand(@thank_words[area].length)]
+      end
+
+      def fill_thank_words
+        @thank_words = \
+          YAML.load(File.read(Love.root.join "../thank_words/#{Love.lang}.yml"))
       end
 
     end

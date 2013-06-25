@@ -1,4 +1,4 @@
-class Love
+module Love
   class Gem
 
     attr_reader :name, :authors, :plain_authors, :spec
@@ -13,7 +13,7 @@ class Love
 
     def fetch_authors
       plain_authors.each do |name|
-        person = Person.new(name)
+        person = Love::Author.new(name)
         person.add_gem self
         add_author person
       end
