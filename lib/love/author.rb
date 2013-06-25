@@ -24,11 +24,12 @@ module Love
               puts "#{index} - name: #{person.name}; login: #{person.login}; username: #{person.username}"
             end
 
-            Octokit.user search_person[gets.chomp.to_i].username
+            user_num = $stdin.gets.chomp.to_i
+            Octokit.user search_person[user_num].login
           else
-            Octokit.user search_person.first.username
+            Octokit.user search_person.first.login
           end
-        puts "found #{@info.username}"
+        puts "found #{@info.login}"
       rescue Octokit::Forbidden
         puts 'github have some unfair limits =('
       rescue
