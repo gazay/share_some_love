@@ -23,10 +23,5 @@ class Love
       @authors << author
     end
 
-    # WIP
-    def love
-
-    end
-
   end
 end

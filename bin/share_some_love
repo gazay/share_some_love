@@ -2,6 +2,6 @@
 
 love_dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(love_dir) unless $LOAD_PATH.include?(love_dir)
-require 'share_some_love'
+require 'love'
 
 Love.share_for ARGV
