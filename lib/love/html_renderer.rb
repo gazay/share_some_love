@@ -1,9 +1,9 @@
-class ShareSomeLove
+class Love
   module HtmlRenderer
     class << self
 
       def thanks
-        ShareSomeLove::ThankWords.title_thanks
+        Love::ThankWords.title_thanks
       end
 
       def style

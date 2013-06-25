@@ -1,4 +1,4 @@
-class ShareSomeLove
+class Love
   module ThankWords
 
     BEGIN_AUTHOR = \

@@ -1,4 +1,4 @@
-class ShareSomeLove
+class Love
   class Gem
 
     attr_reader :name, :authors, :plain_authors, :spec

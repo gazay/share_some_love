@@ -1,6 +1,6 @@
 require 'octokit'
 
-class ShareSomeLove
+class Love
   class Person
 
     attr_reader :name, :info, :gems
@@ -33,16 +33,16 @@ class ShareSomeLove
 
     def love(format)
       image = info.avatar_url
-      who = "#{ShareSomeLove::ThankWords.person_prefix} #{name}"
+      who = "#{Love::ThankWords.person_prefix} #{name}"
       bold = true
-      begin_thanking = ShareSomeLove::ThankWords.begin_phrase_for_author
+      begin_thanking = Love::ThankWords.begin_phrase_for_author
       for_what = \
         if gems.count > 1
-          "#{ShareSomeLove::ThankWords.libraries_prefix} #{gems.map(&:name).join(', ')}"
+          "#{Love::ThankWords.libraries_prefix} #{gems.map(&:name).join(', ')}"
         else
-          "#{ShareSomeLove::ThankWords.library_prefix} #{gems.first.name}"
+          "#{Love::ThankWords.library_prefix} #{gems.first.name}"
         end
-      finish_thanking = ShareSomeLove::ThankWords.end_phrase_for_author
+      finish_thanking = Love::ThankWords.end_phrase_for_author
 
       template = \
         if format == 'md'

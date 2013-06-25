@@ -1,9 +1,7 @@
 require 'bundler'
 require 'erb'
 
-class ShareSomeLove
-
-
+class Love
 
   TEMPLATE =<<EOF
 <!DOCTYPE html>
@@ -65,7 +63,7 @@ EOF
   end
 
   def share_for_site
-    title = ShareSomeLove::ThankWords.title_thanks
+    title = Love::ThankWords.title_thanks
     styles = ERB.new(File.read(
     thanks = \
       if by_gemname
@@ -94,7 +92,7 @@ EOF
 
   def parse_gemfile
     Bundler.setup.specs.each do |spec|
-      gem = ShareSomeLove::Gem.new(spec)
+      gem = Love::Gem.new(spec)
       @gems << gem
       @authors << gem.authors
     end
