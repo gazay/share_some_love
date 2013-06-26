@@ -1,0 +1,17 @@
+<li class="gem">
+  <% if gem.authors.all?(&:info) %>
+    <div class="gem-authors-avatars">
+      <%= gem.authors.map { |a| "<a href=\"http://github.com/#{a.info.login}\"><img src=\"#{a.info.avatar_url}\" alt=\"#{a.name}\"></a>" }.join('<span class="delimeter">&nbsp;</span>') %>
+    </div>
+  <% end %>
+
+  <div class="gem-thanks">
+    <span class="gem-begin-thanks"><%= ThankWords.begin_author %>&nbsp;</span>
+    <span class="gem-authors-names"><%= gem.authors.map(&:name).map { |it| "<span class=\"gem-authors-names-author-name\">#{it}</span>" }.join('<span class="gem-authors-names-delimeter">,&nbsp;</span>') %>
+    <span class="gem-middle-thanks"><%= ThankWords.middle_author %>&nbsp;</span>
+    <span class="gem-name"><%= gem.name %>.</span>
+  </div>
+  <div class="gem-thanks-end">
+    <%= ThankWords.end_author %>
+  </div>
+</li>

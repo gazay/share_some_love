@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      <%= title = ThankWords.title_thanks %>
+    </title>
+    <style><%= defined?(style_content) ? style_content : '' %></style>
+    <script type="text/javascript"><%= defined?(script_content) ? script_content : '' %></script>
+  </head>
+  <body>
+    <h1 class="title"><%= title %></h1>
+    <ul class="gems">
+
+      <%= content %>
+
+    </ul>
+  </body>
+</html>

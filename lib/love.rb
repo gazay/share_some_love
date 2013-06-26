@@ -52,7 +52,7 @@ module Love
 
     def share_love
       if for_site
-        Love::Site.create_file
+        Love::Share.html by_gemname
       else
         Love::Share.md by_gemname
       end

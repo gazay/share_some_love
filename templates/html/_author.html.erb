@@ -1,0 +1,19 @@
+<li class="author">
+  <% if author.info %>
+    <img src="<%= author.info.avatar_url %>" alt="<%= author.name %>" class="author-avatar">
+    <div class="author-info">
+      Follow on github: <a href="http://github.com/<%= author.info.login %>"><%= "@#{author.info.login}" %></a>
+    </div>
+  <% end %>
+  <div class="author-thanks">
+    <span class="author-begin-thanks"><%= ThankWords.begin_author %>&nbsp;</span>
+    <span class="author-name"><%= author.name %>&nbsp;</span>
+    <span class="author-middle-thanks"><%= ThankWords.middle_author %></span>
+  </div>
+  <div class="author-gems">
+    <%= author.gems.map(&:name).map { |it| "<span class=\"author-gems-gem-name\">#{it}</span>" }.join('<span class="delimeter">,&nbsp;</span>') %><span class="dot">.</span>
+  </div>
+  <div class="author-end-thanks">
+    <%= ThankWords.end_author %>
+  </div>
+</li>

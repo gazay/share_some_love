@@ -4,35 +4,45 @@ module Love
 
       def md(by_gemname = false)
         if by_gemname
-          render_by_gem Love.gems
+          render_by 'gem', 'md', Love.gems
         else
-          render_by_author Love.authors
+          render_by 'author', 'md', Love.authors
+        end
+      end
+
+      def html(by_gemname = false)
+        if by_gemname
+          render_by 'gem', 'html', Love.gems
+        else
+          render_by 'author', 'html', Love.authors
         end
       end
 
       private
 
-      def render_by_author(authors)
-        template = File.read(Love.root.join '../templates/md/by_author.md.erb')
-        author_template = File.read(Love.root.join '../templates/md/_author.md.erb')
+      def render_by(type_name, template_type, collection)
+        template = \
+          File.
+            read(
+              Love.root.join "../templates/#{template_type}/by_#{type_name}.#{template_type}.erb"
+            )
+        member_template = \
+          File.
+            read(
+              Love.root.join "../templates/#{template_type}/_#{type_name}.#{template_type}.erb"
+            )
         content = ''
-        authors.each do |author|
-          content << ERB.new(author_template).result(binding)
+        collection.each do |member|
+          content << ERB.new(member_template).result(binding)
         end
-        File.open('./LOVE.md', 'w+') do |f|
-          f.write ERB.new(template).result(binding)
-        end
-      end
-
-      def render_by_gem(gems)
-        template = File.read(Love.root.join '../templates/md/by_gem.md.erb')
-        gem_template = File.read(Love.root.join '../templates/md/_gem.md.erb')
-        content = ''
-        gems.each do |gem|
-          content << ERB.new(gem_template).result(binding)
-        end
-        File.open('./LOVE.md', 'w+') do |f|
-          f.write ERB.new(template).result(binding)
+        if template_type == 'html'
+          File.open('./public/love.html', 'w+') do |f|
+            f.write ERB.new(template).result(binding)
+          end
+        else
+          File.open('./LOVE.md', 'w+') do |f|
+            f.write ERB.new(template).result(binding)
+          end
         end
       end
 
