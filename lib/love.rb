@@ -1,4 +1,5 @@
 require 'bundler'
+require 'octokit'
 require 'pathname'
 require 'erb'
 require 'yaml'
@@ -6,7 +7,7 @@ require 'yaml'
 module Love
   class << self
 
-    attr_reader :by_gemname, :for_site, :gems, :authors, :root, :lang
+    attr_reader :by_gemname, :for_site, :gems, :authors, :root, :lang, :octokit
 
     def share_for(args)
       by_gemname = args.include? 'by_gem'
@@ -21,8 +22,19 @@ module Love
 
       lets_start_from_heart!
 
+      login_user
+
       parse_gemfile
       share_love
+    end
+
+    def login_user
+      puts 'Please, enter your github credentials that Octokit could work without github guest requests restrictions'
+      puts 'login:'
+      login = $stdin.gets.chomp
+      puts 'password:'
+      pass = $stdin.gets.chomp
+      @octokit = Octokit::Client.new login: login, password: pass
     end
 
     def lets_start_from_heart!
@@ -30,7 +42,7 @@ module Love
     end
 
     def parse_gemfile
-      Bundler.setup.specs.each do |spec|
+      Bundler.load.specs.each do |spec|
         gem = Love::Gem.new(spec)
         @gems << gem
         @authors << gem.authors

@@ -1,5 +1,3 @@
-require 'octokit'
-
 module Love
   class Author
 
@@ -15,7 +13,7 @@ module Love
       uri = ERB::Util.url_encode(name)
       puts "search for #{name}"
       begin
-        search_person = Octokit.search_users uri
+        search_person = Love.octokit.search_users uri
         @info = \
           if search_person.count > 1
             puts '!!! THERE ARE SEVERAL PERSONS WITH THIS NAME IN GITHUB !!!'
@@ -25,9 +23,9 @@ module Love
             end
 
             user_num = $stdin.gets.chomp.to_i
-            Octokit.user search_person[user_num].login
+            Love.octokit.user search_person[user_num].login
           else
-            Octokit.user search_person.first.login
+            Love.octokit.user search_person.first.login
           end
         puts "found #{@info.login}"
       rescue Octokit::Forbidden

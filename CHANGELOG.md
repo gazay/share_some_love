@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 0.0.5
+
+  * Search for authors and their info without github restrictions for
+    guests
+
+## 0.0.4
+
+  * Rewrited everything
+
 ## 0.0.3
 
   * You can say some similar words to people, who did gems for your site
