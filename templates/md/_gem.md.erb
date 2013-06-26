@@ -1,3 +1,4 @@
+<% gem = member %>
 *  <% if gem.authors.all?(&:info) %>
     <%= gem.authors.map { |a| "![#{a.name}](#{a.info.avatar_url})" }.join(' ') %>
    <% end %>

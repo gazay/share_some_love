@@ -32,6 +32,8 @@ module Love
               Love.root.join "../templates/#{template_type}/_#{type_name}.#{template_type}.erb"
             )
         content = ''
+        style_content = 'h1 { color: red; }'
+        script_content = 'alert(1)'
         collection.each do |member|
           content << ERB.new(member_template).result(binding)
         end
