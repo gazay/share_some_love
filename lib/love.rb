@@ -7,14 +7,12 @@ require 'yaml'
 module Love
   class << self
 
-    attr_reader :by_gemname, :for_site, :gems, :authors, :root, :lang, :octokit
+    attr_reader :by_gemname, :for_site, :gems, :authors, :root, :lang, :octokit, :check_author
 
     def share_for(args)
-      by_gemname = args.include? 'by_gem'
-      for_site = args.include? 'site'
-
-      @by_gemname = by_gemname
-      @for_site = for_site
+      @by_gemname = args.include? 'by_gem'
+      @for_site = args.include? 'site'
+      @check_author = args.include? '-v'
       @root = Pathname(__FILE__).parent
       @lang = 'en'
       @gems = []

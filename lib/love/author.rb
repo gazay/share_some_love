@@ -17,12 +17,24 @@ module Love
         @info = \
           if search_person.count > 1
             puts '!!! THERE ARE SEVERAL PERSONS WITH THIS NAME IN GITHUB !!!'
-            puts "Please check right man with his number and we'll continue"
-            search_person.each_with_index do |person, index|
-              puts "#{index} - name: #{person.name}; login: #{person.login}; username: #{person.username}"
-            end
+            user_num =\
+              if Love.check_author
+                puts "Please check right man with his number and we'll continue"
+                search_person.each_with_index do |person, index|
+                  puts "#{index} - name: #{person.name}; login: #{person.login}; username: #{person.username}"
+                end
 
-            user_num = $stdin.gets.chomp.to_i
+                $stdin.gets.chomp.to_i
+              else
+                puts "To check author manually please restart with option -v"
+                search_person.each_with_index do |person, index|
+                  puts "#{index} - name: #{person.name}; login: #{person.login}; username: #{person.username}"
+                end
+                puts "Taken first"
+
+                0
+              end
+
             Love.octokit.user search_person[user_num].login
           else
             Love.octokit.user search_person.first.login
