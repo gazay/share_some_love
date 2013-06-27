@@ -8,9 +8,13 @@
 
   <div class="gem-thanks">
     <span class="gem-begin-thanks"><%= ThankWords.begin_author %>&nbsp;</span>
-    <span class="gem-authors-names"><%= gem.authors.map(&:name).map { |it| "<span class=\"gem-authors-names-author-name\">#{it}</span>" }.join('<span class="gem-authors-names-delimeter">,&nbsp;</span>') %>
+    <% if gem.authors.all?(&:info) %>
+      <span class="gem-authors-names"><%= gem.authors.map { |it| "<span class=\"gem-authors-names-author-name\"><a href=\"http://github.com/#{it.info.login}\">#{it.name}</a></span>" }.join('<span class="gem-authors-names-delimeter">,&nbsp;</span>') %>
+    <% else %>
+      <span class="gem-authors-names"><%= gem.authors.map(&:name).map { |it| "<span class=\"gem-authors-names-author-name\">#{it}</span>" }.join('<span class="gem-authors-names-delimeter">,&nbsp;</span>') %>
+    <% end %>
     <span class="gem-middle-thanks"><%= ThankWords.middle_author %>&nbsp;</span>
-    <span class="gem-name"><%= gem.name %>.</span>
+    <span class="gem-name"><a href="<%= gem.url %>"><%= gem.name %></a>.</span>
   </div>
   <div class="gem-thanks-end">
     <%= ThankWords.end_author %>

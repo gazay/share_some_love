@@ -1,9 +1,15 @@
 <% gem = member %>
-*  <% if gem.authors.all?(&:info) %>
-    <%= gem.authors.map { |a| "![#{a.name}](#{a.info.avatar_url})" }.join(' ') %>
-   <% end %>
+<% if gem.authors.all?(&:info) %>
+ <%= gem.authors.map { |a| "![#{a.name}](#{a.info.avatar_url})" }.join(' ') %>
+<% end %>
 
-   <%= ThankWords.begin_author %> <%= gem.authors.map(&:name).map { |it| "**#{it}**" }.join(', ') %>
-   <%= ThankWords.middle_author %> **<%= gem.name %>**.
+<% if gem.authors.all?(&:info) %>
+  <%= ThankWords.begin_author %> <%= gem.authors.map { |it| "[**#{it.name}**](http://github.com/#{it.info.login})" }.join(', ') %>
+<% else %>
+  <%= ThankWords.begin_author %> <%= gem.authors.map(&:name).map { |it| "**#{it}**" }.join(', ') %>
+<% end %>
+<%= ThankWords.middle_author %> [**<%= gem.name %>**](<%= gem.url %>).
 
-   <%= ThankWords.end_author %>
+<%= ThankWords.end_author %>
+
+------------

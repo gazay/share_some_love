@@ -7,7 +7,8 @@ require 'yaml'
 module Love
   class << self
 
-    attr_reader :by_gemname, :for_site, :gems, :authors, :root, :lang, :octokit, :check_author
+    attr_reader :by_gemname, :for_site, :root, :lang, :octokit, :check_author
+    attr_accessor :gems, :authors
 
     def share_for(args)
       @by_gemname = args.include? 'by_gem'
@@ -43,9 +44,7 @@ module Love
       Bundler.load.specs.each do |spec|
         gem = Love::Gem.new(spec)
         @gems << gem
-        @authors << gem.authors
       end
-      @authors = @authors.flatten.uniq
     end
 
     def share_love
