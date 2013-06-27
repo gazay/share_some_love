@@ -11,13 +11,7 @@ module Love
     attr_accessor :gems, :authors
 
     def share_for(args)
-      @by_gemname = args.include? 'by_gem'
-      @for_site = args.include? 'site'
-      @check_author = args.include? '-v'
-      @root = Pathname(__FILE__).parent
-      @lang = 'en'
-      @gems = []
-      @authors = []
+      config(args)
 
       lets_start_from_heart!
 
@@ -25,6 +19,16 @@ module Love
 
       parse_gemfile
       share_love
+    end
+
+    def config(args = [])
+      @by_gemname = args.include? 'by_gem'
+      @for_site = args.include? 'site'
+      @check_author = args.include? '-v'
+      @root = Pathname(__FILE__).parent
+      @lang = 'en'
+      @gems = []
+      @authors = []
     end
 
     def login_user

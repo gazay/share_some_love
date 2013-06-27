@@ -17,23 +17,7 @@ module Love
         @info = \
           if search_person.count > 1
             puts '!!! THERE ARE SEVERAL PERSONS WITH THIS NAME IN GITHUB !!!'
-            user_num =\
-              if Love.check_author
-                puts "Please check right man with his number and we'll continue"
-                search_person.each_with_index do |person, index|
-                  puts "#{index} - name: #{person.name}; login: #{person.login}; username: #{person.username}"
-                end
-
-                $stdin.gets.chomp.to_i
-              else
-                puts "To check author manually please restart with option -v"
-                search_person.each_with_index do |person, index|
-                  puts "#{index} - name: #{person.name}; login: #{person.login}; username: #{person.username}"
-                end
-                puts "Taken first"
-
-                0
-              end
+            user_num = pick_user(search_person)
 
             Love.octokit.user search_person[user_num].login
           else
@@ -49,6 +33,27 @@ module Love
 
     def add_gem(gem)
       @gems << gem
+    end
+
+    private
+
+    def pick_user(users)
+      if Love.check_author
+        puts "Please check right man with his number and we'll continue"
+      else
+        puts "To check author manually please restart with option -v"
+      end
+
+      users.each_with_index do |person, index|
+        puts "#{index} - name: #{person.name}; login: #{person.login}; username: #{person.username}"
+      end
+
+      if Love.check_author
+        $stdin.gets.chomp.to_i
+      else
+        puts "Taken first"
+        0
+      end
     end
 
   end

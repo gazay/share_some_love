@@ -1,1 +1,1 @@
-require 'share_some_love'
+require 'love'
