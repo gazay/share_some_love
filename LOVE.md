@@ -1,3 +1,4 @@
+```ascii
  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 < :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: >
 < ::::::::::::            ::::::::::::            :::::::::::: >
@@ -22,8 +23,9 @@
 < :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: >
   ()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
 
+```
 
-#### I'd like to thank all these people! Believe me - they are awesome!
+#### Love to these people! And bunch of hugs!
 
 
 
@@ -31,12 +33,12 @@
   Follow on github: [@sporkmonger](http://github.com/sporkmonger)
 
 
-  Thank you so much [**Bob Aman**](http://github.com/sporkmonger) for making my life easier by creating
+  Thank you very much [**Bob Aman**](http://github.com/sporkmonger) for making my life easier by creating
 
 
 [**addressable**](http://addressable.rubyforge.org/).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Enjoy what you did as I am!
 
 --------
 
@@ -45,12 +47,12 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
   Follow on github: [@indirect](http://github.com/indirect)
 
 
-  Thank you so much [**André Arko**](http://github.com/indirect) for made this idea happened, I mean
+  I'd like to thank [**André Arko**](http://github.com/indirect) for making my life easier by creating
 
 
 [**bundler**](http://gembundler.com).
 
-Just be so cool as you are and remember that your work never being useless!
+Enjoy what you did as I am!
 
 --------
 
@@ -59,12 +61,12 @@ Just be so cool as you are and remember that your work never being useless!
   Follow on github: [@hone](http://github.com/hone)
 
 
-  I appreciate time of [**Terence Lee**](http://github.com/hone) for spending time on
+  Thank you so much [**Terence Lee**](http://github.com/hone) for making my life easier by creating
 
 
 [**bundler**](http://gembundler.com).
 
-Enjoy what you did as I am!
+I wanna hug you someday and say in person what great job you done!
 
 --------
 
@@ -73,12 +75,12 @@ Enjoy what you did as I am!
   Follow on github: [@carllerche](http://github.com/carllerche)
 
 
-  I appreciate time of [**Carl Lerche**](http://github.com/carllerche) for making my life easier by creating
+  I appreciate time of [**Carl Lerche**](http://github.com/carllerche) for made this idea happened, I mean
 
 
 [**bundler**](http://gembundler.com).
 
-Enjoy what you did as I am!
+Just be so cool as you are and remember that your work never being useless!
 
 --------
 
@@ -87,12 +89,12 @@ Enjoy what you did as I am!
   Follow on github: [@wycats](http://github.com/wycats)
 
 
-  I appreciate time of [**Yehuda Katz**](http://github.com/wycats) for made this idea happened, I mean
+  Thank you so much [**Yehuda Katz**](http://github.com/wycats) for making my life easier by creating
 
 
 [**bundler**](http://gembundler.com).
 
-Enjoy what you did as I am!
+Just be so cool as you are and remember that your work never being useless!
 
 --------
 
@@ -101,23 +103,23 @@ Enjoy what you did as I am!
   Follow on github: [@nicksieger](http://github.com/nicksieger)
 
 
-  I'd like to thank [**Nick Sieger**](http://github.com/nicksieger) for spending time on
+  I appreciate time of [**Nick Sieger**](http://github.com/nicksieger) for creating and maintaining
 
 
 [**multipart-post**](https://github.com/nicksieger/multipart-post).
 
-Just be so cool as you are and remember that your work never being useless!
+I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
 
 --------
 
 
 
-  I appreciate time of **Rick Olson** for creating and maintaining
+  My sincere thanks to **Rick Olson** for making my life easier by creating
 
 
 [**faraday**](https://github.com/lostisland/faraday).
 
-I wanna hug you someday and say in person what great job you done!
+Enjoy what you did as I am!
 
 --------
 
@@ -126,12 +128,12 @@ I wanna hug you someday and say in person what great job you done!
   Follow on github: [@sferik](http://github.com/sferik)
 
 
-  I appreciate time of [**Erik Michaels-Ober**](http://github.com/sferik) for spending time on
+  My sincere thanks to [**Erik Michaels-Ober**](http://github.com/sferik) for made this idea happened, I mean
 
 
 [**faraday_middleware**](https://github.com/pengwynn/faraday_middleware), [**multi_json**](http://github.com/intridea/multi_json), [**octokit**](https://github.com/pengwynn/octokit).
 
-Just be so cool as you are and remember that your work never being useless!
+I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
 
 --------
 
@@ -140,7 +142,7 @@ Just be so cool as you are and remember that your work never being useless!
   Follow on github: [@pengwynn](http://github.com/pengwynn)
 
 
-  I'd like to thank [**Wynn Netherland**](http://github.com/pengwynn) for made this idea happened, I mean
+  I appreciate time of [**Wynn Netherland**](http://github.com/pengwynn) for creating and maintaining
 
 
 [**faraday_middleware**](https://github.com/pengwynn/faraday_middleware), [**octokit**](https://github.com/pengwynn/octokit).
@@ -154,12 +156,12 @@ I wanna hug you someday and say in person what great job you done!
   Follow on github: [@mbleigh](http://github.com/mbleigh)
 
 
-  My sincere thanks to [**Michael Bleigh**](http://github.com/mbleigh) for made this idea happened, I mean
+  Thank you so much [**Michael Bleigh**](http://github.com/mbleigh) for spending time on
 
 
 [**hashie**](https://github.com/intridea/hashie), [**multi_json**](http://github.com/intridea/multi_json).
 
-I wanna hug you someday and say in person what great job you done!
+Just be so cool as you are and remember that your work never being useless!
 
 --------
 
@@ -173,7 +175,7 @@ I wanna hug you someday and say in person what great job you done!
 
 [**hashie**](https://github.com/intridea/hashie).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Enjoy what you did as I am!
 
 --------
 
@@ -182,12 +184,12 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
   Follow on github: [@joshk](http://github.com/joshk)
 
 
-  I appreciate time of [**Josh Kalderimis**](http://github.com/joshk) for being so nice to create
+  My sincere thanks to [**Josh Kalderimis**](http://github.com/joshk) for creating and maintaining
 
 
 [**multi_json**](http://github.com/intridea/multi_json).
 
-Enjoy what you did as I am!
+I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
 
 --------
 
@@ -196,12 +198,12 @@ Enjoy what you did as I am!
   Follow on github: [@rwz](http://github.com/rwz)
 
 
-  Thank you very much [**Pavel Pravosud**](http://github.com/rwz) for creating and maintaining
+  I'd like to thank [**Pavel Pravosud**](http://github.com/rwz) for making my life easier by creating
 
 
 [**multi_json**](http://github.com/intridea/multi_json).
 
-Enjoy what you did as I am!
+I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
 
 --------
 
@@ -210,7 +212,7 @@ Enjoy what you did as I am!
   Follow on github: [@kr](http://github.com/kr)
 
 
-  I appreciate time of [**Keith Rarick**](http://github.com/kr) for making my life easier by creating
+  I appreciate time of [**Keith Rarick**](http://github.com/kr) for spending time on
 
 
 [**netrc**](https://github.com/geemus/netrc).
@@ -224,7 +226,7 @@ Just be so cool as you are and remember that your work never being useless!
   Follow on github: [@geemus](http://github.com/geemus)
 
 
-  My sincere thanks to [**geemus (Wesley Beary)**](http://github.com/geemus) for spending time on
+  My sincere thanks to [**geemus (Wesley Beary)**](http://github.com/geemus) for being so nice to create
 
 
 [**netrc**](https://github.com/geemus/netrc).
@@ -235,7 +237,7 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
 
 
 
-  I appreciate time of **Clint Shryock** for spending time on
+  Thank you very much **Clint Shryock** for making my life easier by creating
 
 
 [**octokit**](https://github.com/pengwynn/octokit).
@@ -249,20 +251,22 @@ Enjoy what you did as I am!
   Follow on github: [@gazay](http://github.com/gazay)
 
 
-  I'd like to thank [**gazay**](http://github.com/gazay) for being so nice to create
+  I'd like to thank [**gazay**](http://github.com/gazay) for spending time on
 
 
 [**share_some_love**](https://github.com/gazay/share_some_love).
 
-I wanna hug you someday and say in person what great job you done!
+I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
 
 --------
 
 
 This file was respectfully generated by gazay
+```ascii
          .        }   ~ .__,~O     ` ~ _   ~  ^  ~  -
                 `}` - =    /#/`-'     -   ~   =   ~  _ ~
            ~ .   }   ~ -   |^\   _ ~ _  - ~ -_  =  _
                 }`  _____ /_  /____ - ~ _   ~ _
         jgs   }`   `~~~~~~~~~~~~~~~`_ = _ ~ -
 
+```
