@@ -1,11 +1,9 @@
 # Share some love
 
-:heart::heartpulse::green_heart::yellow_heart::heartbeat::blue_heart::revolving_hearts::purple_heart::two_hearts::sparkling_heart:
+:heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart:
 
 Share some love to our buddies rubyists! Say simple **Thank You** to
 all, who spent their time for open source software we use!
-
-:heart::heartpulse::green_heart::yellow_heart::heartbeat::blue_heart::revolving_hearts::purple_heart::two_hearts::sparkling_heart:
 
 ## The Problem
 
@@ -64,7 +62,7 @@ share_some_love site [by_gem]
 After that you can review and add to your repository file `./public/love.html`
 
 
-P.s. Don't forget to share your page or file in twitter with hashtag #share_some_love
+*P.s. Don't forget to share your page or file in twitter with hashtag #share_some_love*
 
 ## Contributors
 
