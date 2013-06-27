@@ -16,8 +16,8 @@ about open source software. I know a few sad stories when the people who created
 project, just dropped his hands to maintain it. When the number of
 negatives outweighed the number of good reviews. When just do not have
 time or do not see that someone needs it. And I believe that if just in our
-beautiful community we will share a little more love for each other
-- such stories will become a lot rarer! It's so easy - to say **Thank You**
+beautiful community we will share a little more love for each other -
+such stories will become a lot rarer! It's so easy - to say **Thank You**
 to those who made part of your job. Who spent their free time to
 support a project in an efficient condition. Who in the end allows you
 by their work to earn money and experience easier. All these
