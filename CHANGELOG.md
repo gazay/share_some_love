@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 0.1.1
+
+  * Some specs and refactorings
+
+## 0.1.0
+
+  * Finishing proof of concept with md files generated properly
+
 ## 0.0.5
 
   * Search for authors and their info without github restrictions for
