@@ -3,7 +3,7 @@
 :heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart:
 
 Share some love to our buddies rubyists! Say simple **Thank You** to
-all, who spent their time for open source software we use!
+all, who spent their time on creating and maintaining open source software we use!
 
 ## The Problem
 
