@@ -2,31 +2,27 @@
 
 :heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart::heart::green_heart::yellow_heart::blue_heart::purple_heart::sparkling_heart:
 
-Share some love to our buddies rubyists! Say simple **Thank You** to
-all, who spent their time on creating and maintaining open source software we use!
+Share some love with our buddies rubyists! Say **Thank You** to all kind people, who
+spent their time to create and maintain open source software we use!
 
 ## The Problem
 
-Surely you've already thought about how important it is sometimes – to say
-**Thank You**. How nice it is - get those thanks in your address. Especially if
-it's no thanks for what you had to do or have done because it's your
-job, but because you have done something as a hobby and this is
-something very beneficial to someone else. At the moment I'm talking
-about open source software. I know a few sad stories when the people who created the
-project, just dropped his hands to maintain it. When the number of
-negatives outweighed the number of good reviews. When just do not have
-time or do not see that someone needs it. And I believe that if just in our
-beautiful community we will share a little more love for each other -
-such stories will become a lot rarer! It's so easy - to say **Thank You**
-to those who made part of your job. Who spent their free time to
-support a project in an efficient condition. Who in the end allows you
-by their work to earn money and experience easier. All these
-people are certainly getting a lot of good words in his address, but
-most of them just appear in the specifications established by the gems
-on your computer and even yourself can not be aware of them and their
-contribution in your project.
+Have you ever been thinking how important it is to say **Thank You** sometimes? 
+And what pleasure it is to get kind words back! Especially when something being a 
+hobby to you appears to be beneficial to somebody else. That's how open-source software
+works.
 
-I offer a simple way to say thank you to all those people!
+Unfortunately it happens all the time: amount of criticism outweights positive
+reviews. And you give up on that. But the project you was working on is awesome!
+We just didn't have enough of time or will to see you need our support.
+
+**NOT GONNA HAPPEN AGAIN!**
+
+Let's share a bit more of love! It's really easy to say **Thank You** to incredible
+people that just made part of your work. That spent their personal time to maintain something 
+so useful. That allowed you to learn something new.
+
+And with `share_some_love` it just got even easier.
 
 ## Instalation
 
@@ -36,33 +32,36 @@ gem install share_some_love
 
 ## Usage
 
-For your gem project
+### If you are developing a GEM
+
 ```bash
 cd your_gem_directory
 
 share_some_love [by_gem]
 ```
 
-After that you can review and add to your repository file `./LOVE.md`
-You can check example files, which I generated for this project with and
-without `by_gem` option:
-[LOVE_by_gemfile.md](https://github.com/gazay/share_some_love/blob/master/LOVE_by_gem.md)
-and
-[LOVE_by_author.md](https://github.com/gazay/share_some_love/blob/master/LOVE_by_author.md)
+Review `./LOVE.md` and put it into the repo.
 
-For web projects I don't have styles and javascripts to page looks
-pretty, so there only naked html and alert(1) will be generated =)
-For your web project:
+### If you are developing a WEB application
+
 ```bash
 cd your_project_directory
 
 share_some_love site [by_gem]
 ```
 
-After that you can review and add to your repository file `./public/love.html`
+Review `./public/love.html` and put it into the repo.
 
+---
 
-*P.s. Don't forget to share your page or file in twitter with hashtag #share_some_love*
+Here are some sample files that were generated with this gem itself:
+
+  * [LOVE_by_gemfile.md](https://github.com/gazay/share_some_love/blob/master/LOVE_by_gem.md) – with `by gem` option
+  * [LOVE_by_author.md](https://github.com/gazay/share_some_love/blob/master/LOVE_by_author.md) – without `by gem` option
+
+I don't currently have styles and JS to make Web Projects love pages look pretty. So here is another chance to share some love: help me with that ;).
+
+**P.S. Don't forget to mention your page or file in twitter using hashtag `#share_some_love`**
 
 ## Contributors
 
