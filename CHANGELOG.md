@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.2
+
+  * More kind words and fixed readme
+
 ## 0.1.1
 
   * Some specs and refactorings
