@@ -25,7 +25,7 @@
 
 ```
 
-#### Love to these people! And bunch of hugs!
+#### I'd like to thank all these people! Believe me - they are awesome!
 
 
 
@@ -33,12 +33,12 @@
   Follow on github: [@sporkmonger](http://github.com/sporkmonger)
 
 
-  Thank you very much [**Bob Aman**](http://github.com/sporkmonger) for making my life easier by creating
+  My sincere thanks to [**Bob Aman**](http://github.com/sporkmonger) for being so nice to create and maintain
 
 
 [**addressable**](http://addressable.rubyforge.org/).
 
-Enjoy what you did as I am!
+I wanna hug you someday and say in person what great job you done!
 
 --------
 
@@ -47,7 +47,21 @@ Enjoy what you did as I am!
   Follow on github: [@indirect](http://github.com/indirect)
 
 
-  I'd like to thank [**André Arko**](http://github.com/indirect) for making my life easier by creating
+  I’m very thankful to [**André Arko**](http://github.com/indirect) for all efforts made to create and maintain
+
+
+[**bundler**](http://gembundler.com).
+
+I wanna hug you someday and say in person what amaizing job you done!
+
+--------
+
+
+  ![Terence Lee](https://secure.gravatar.com/avatar/efb7c66871043330ce1310a9bdd0aaf6?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+  Follow on github: [@hone](http://github.com/hone)
+
+
+  My respectful thanks to [**Terence Lee**](http://github.com/hone) for the amaizing realization of
 
 
 [**bundler**](http://gembundler.com).
@@ -57,25 +71,11 @@ Enjoy what you did as I am!
 --------
 
 
-  ![Terence Lee](https://secure.gravatar.com/avatar/efb7c66871043330ce1310a9bdd0aaf6?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
-  Follow on github: [@hone](http://github.com/hone)
-
-
-  Thank you so much [**Terence Lee**](http://github.com/hone) for making my life easier by creating
-
-
-[**bundler**](http://gembundler.com).
-
-I wanna hug you someday and say in person what great job you done!
-
---------
-
-
   ![Carl Lerche](https://secure.gravatar.com/avatar/da5274b27cc6c0f505495bf5d504575d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
   Follow on github: [@carllerche](http://github.com/carllerche)
 
 
-  I appreciate time of [**Carl Lerche**](http://github.com/carllerche) for made this idea happened, I mean
+  Thank you so much [**Carl Lerche**](http://github.com/carllerche) for making my life easier by creating and maintaining
 
 
 [**bundler**](http://gembundler.com).
@@ -89,12 +89,26 @@ Just be so cool as you are and remember that your work never being useless!
   Follow on github: [@wycats](http://github.com/wycats)
 
 
-  Thank you so much [**Yehuda Katz**](http://github.com/wycats) for making my life easier by creating
+  Thank you very much [**Yehuda Katz**](http://github.com/wycats) for the great realization of
 
 
 [**bundler**](http://gembundler.com).
 
-Just be so cool as you are and remember that your work never being useless!
+I’m running out of words as I’m trying to show how great is your work! Stay cool!
+
+--------
+
+
+  ![Austin Ziegler](https://secure.gravatar.com/avatar/67909c200a726f105536f4c17f4c85e8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+  Follow on github: [@halostatue](http://github.com/halostatue)
+
+
+  I'd like to thank [**Austin Ziegler**](http://github.com/halostatue) for being so cool to create and maintain
+
+
+[**diff-lcs**](http://diff-lcs.rubyforge.org/).
+
+Keep doing the same great job as it’s fantastic!
 
 --------
 
@@ -103,23 +117,23 @@ Just be so cool as you are and remember that your work never being useless!
   Follow on github: [@nicksieger](http://github.com/nicksieger)
 
 
-  I appreciate time of [**Nick Sieger**](http://github.com/nicksieger) for creating and maintaining
+  I send all my respect to [**Nick Sieger**](http://github.com/nicksieger) for reduce my time spending by creating and maintaining
 
 
 [**multipart-post**](https://github.com/nicksieger/multipart-post).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Keep doing the same great job as it’s awesome!
 
 --------
 
 
 
-  My sincere thanks to **Rick Olson** for making my life easier by creating
+  I appreciate time of **Rick Olson** for the terrific realization of
 
 
 [**faraday**](https://github.com/lostisland/faraday).
 
-Enjoy what you did as I am!
+Keep doing the same great job as it’s terrific!
 
 --------
 
@@ -128,7 +142,7 @@ Enjoy what you did as I am!
   Follow on github: [@sferik](http://github.com/sferik)
 
 
-  My sincere thanks to [**Erik Michaels-Ober**](http://github.com/sferik) for made this idea happened, I mean
+  I send all my hugs to [**Erik Michaels-Ober**](http://github.com/sferik) for made this idea happened, I mean
 
 
 [**faraday_middleware**](https://github.com/pengwynn/faraday_middleware), [**multi_json**](http://github.com/intridea/multi_json), [**octokit**](https://github.com/pengwynn/octokit).
@@ -142,12 +156,12 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
   Follow on github: [@pengwynn](http://github.com/pengwynn)
 
 
-  I appreciate time of [**Wynn Netherland**](http://github.com/pengwynn) for creating and maintaining
+  A bunch of hugs to [**Wynn Netherland**](http://github.com/pengwynn) for being so kind to create and maintain
 
 
 [**faraday_middleware**](https://github.com/pengwynn/faraday_middleware), [**octokit**](https://github.com/pengwynn/octokit).
 
-I wanna hug you someday and say in person what great job you done!
+Just be so great as you are and remember that your work never being useless!
 
 --------
 
@@ -156,12 +170,12 @@ I wanna hug you someday and say in person what great job you done!
   Follow on github: [@mbleigh](http://github.com/mbleigh)
 
 
-  Thank you so much [**Michael Bleigh**](http://github.com/mbleigh) for spending time on
+  I appreciate time of [**Michael Bleigh**](http://github.com/mbleigh) for spending time on
 
 
 [**hashie**](https://github.com/intridea/hashie), [**multi_json**](http://github.com/intridea/multi_json).
 
-Just be so cool as you are and remember that your work never being useless!
+I’m running out of words as I’m trying to show how great is your work! Stay cool!
 
 --------
 
@@ -170,12 +184,12 @@ Just be so cool as you are and remember that your work never being useless!
   Follow on github: [@jch](http://github.com/jch)
 
 
-  My sincere thanks to [**Jerry Cheung**](http://github.com/jch) for spending time on
+  I send all my respect to [**Jerry Cheung**](http://github.com/jch) for the idea and realization of
 
 
 [**hashie**](https://github.com/intridea/hashie).
 
-Enjoy what you did as I am!
+I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
 
 --------
 
@@ -184,12 +198,12 @@ Enjoy what you did as I am!
   Follow on github: [@joshk](http://github.com/joshk)
 
 
-  My sincere thanks to [**Josh Kalderimis**](http://github.com/joshk) for creating and maintaining
+  Thank you very much [**Josh Kalderimis**](http://github.com/joshk) for creating and maintaining
 
 
 [**multi_json**](http://github.com/intridea/multi_json).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Enjoy what you did as I am!
 
 --------
 
@@ -198,12 +212,12 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
   Follow on github: [@rwz](http://github.com/rwz)
 
 
-  I'd like to thank [**Pavel Pravosud**](http://github.com/rwz) for making my life easier by creating
+  A bunch of hugs to [**Pavel Pravosud**](http://github.com/rwz) for making my work easier by creating and maintaining
 
 
 [**multi_json**](http://github.com/intridea/multi_json).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Keep doing the same great job as it’s fantastic!
 
 --------
 
@@ -212,12 +226,12 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
   Follow on github: [@kr](http://github.com/kr)
 
 
-  I appreciate time of [**Keith Rarick**](http://github.com/kr) for spending time on
+  I'd like to thank [**Keith Rarick**](http://github.com/kr) for the terrific realization of
 
 
 [**netrc**](https://github.com/geemus/netrc).
 
-Just be so cool as you are and remember that your work never being useless!
+Just be so great as you are and remember that your work never being useless!
 
 --------
 
@@ -226,23 +240,65 @@ Just be so cool as you are and remember that your work never being useless!
   Follow on github: [@geemus](http://github.com/geemus)
 
 
-  My sincere thanks to [**geemus (Wesley Beary)**](http://github.com/geemus) for being so nice to create
+  My respectful thanks to [**geemus (Wesley Beary)**](http://github.com/geemus) for all efforts made to create and maintain
 
 
 [**netrc**](https://github.com/geemus/netrc).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Keep doing the same great job as it’s awesome!
 
 --------
 
 
 
-  Thank you very much **Clint Shryock** for making my life easier by creating
+  My sincere thanks to **Clint Shryock** for the great realization of
 
 
 [**octokit**](https://github.com/pengwynn/octokit).
 
-Enjoy what you did as I am!
+I wanna hug you someday and say in person what great job you done!
+
+--------
+
+
+  ![Steven Baker](https://secure.gravatar.com/avatar/3c8c4b69930a102c3ca698cc4cbcbf0b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+  Follow on github: [@srbaker](http://github.com/srbaker)
+
+
+  I send all my hugs to [**Steven Baker**](http://github.com/srbaker) for reduce my time spending by creating and maintaining
+
+
+[**rspec-core**](http://github.com/rspec/rspec-core), [**rspec-expectations**](http://github.com/rspec/rspec-expectations), [**rspec-mocks**](http://github.com/rspec/rspec-mocks), [**rspec**](http://github.com/rspec).
+
+Just be so cool as you are and remember that your work never being useless!
+
+--------
+
+
+  ![David Chelimsky](https://secure.gravatar.com/avatar/5d38ab152e1e3e219512a9859fcd93af?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+  Follow on github: [@dchelimsky](http://github.com/dchelimsky)
+
+
+  Thank you so much [**David Chelimsky**](http://github.com/dchelimsky) for the amaizing realization of
+
+
+[**rspec-core**](http://github.com/rspec/rspec-core), [**rspec-expectations**](http://github.com/rspec/rspec-expectations), [**rspec-mocks**](http://github.com/rspec/rspec-mocks), [**rspec**](http://github.com/rspec).
+
+Keep doing the same great job as it’s terrific!
+
+--------
+
+
+  ![Chad Humphries](https://secure.gravatar.com/avatar/7ce90d712fab09421b7f2cf955b9a4c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+  Follow on github: [@spicycode](http://github.com/spicycode)
+
+
+  I’m very thankful to [**Chad Humphries**](http://github.com/spicycode) for making my life easier by creating and maintaining
+
+
+[**rspec-core**](http://github.com/rspec/rspec-core).
+
+I wanna hug you someday and say in person what amaizing job you done!
 
 --------
 
@@ -251,12 +307,12 @@ Enjoy what you did as I am!
   Follow on github: [@gazay](http://github.com/gazay)
 
 
-  I'd like to thank [**gazay**](http://github.com/gazay) for spending time on
+  I’m very thankful to [**gazay**](http://github.com/gazay) for being so nice to create and maintain
 
 
 [**share_some_love**](https://github.com/gazay/share_some_love).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Keep doing the same great job as it’s awesome!
 
 --------
 

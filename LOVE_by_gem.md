@@ -25,7 +25,7 @@
 
 ```
 
-#### Thank you all, guys and girls who made my life easier and help me to enjoy make my project more and more!
+#### That’s… gorgeous! I’d love to thank you from the bottom of my heart!
 
 
 
@@ -33,11 +33,11 @@
 
 
 
-  Thank you so much [**Bob Aman**](http://github.com/sporkmonger)
+  I'd like to thank [**Bob Aman**](http://github.com/sporkmonger)
 
-for creating and maintaining [**addressable**](http://addressable.rubyforge.org/).
+for being so cool to create and maintain [**addressable**](http://addressable.rubyforge.org/).
 
-Enjoy what you did as I am!
+Just be so cool as you are and remember that your work never being useless!
 
 ------------
 
@@ -46,11 +46,24 @@ Enjoy what you did as I am!
 
 
 
-  Thank you very much [**André Arko**](http://github.com/indirect), [**Terence Lee**](http://github.com/hone), [**Carl Lerche**](http://github.com/carllerche), [**Yehuda Katz**](http://github.com/wycats)
+  A bunch of hugs to [**André Arko**](http://github.com/indirect), [**Terence Lee**](http://github.com/hone), [**Carl Lerche**](http://github.com/carllerche), [**Yehuda Katz**](http://github.com/wycats)
 
-for made this idea happened, I mean [**bundler**](http://gembundler.com).
+for the great realization of [**bundler**](http://gembundler.com).
 
-I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
+Just be so great as you are and remember that your work never being useless!
+
+------------
+
+
+ ![Austin Ziegler](https://secure.gravatar.com/avatar/67909c200a726f105536f4c17f4c85e8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+
+
+
+  I send all my respect to [**Austin Ziegler**](http://github.com/halostatue)
+
+for reduce my time spending by creating and maintaining [**diff-lcs**](http://diff-lcs.rubyforge.org/).
+
+Keep doing the same great job as it’s fantastic!
 
 ------------
 
@@ -59,22 +72,22 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
 
 
 
-  I'd like to thank [**Nick Sieger**](http://github.com/nicksieger)
+  My sincere thanks to [**Nick Sieger**](http://github.com/nicksieger)
 
-for making my life easier by creating [**multipart-post**](https://github.com/nicksieger/multipart-post).
+for all efforts made to create and maintain [**multipart-post**](https://github.com/nicksieger/multipart-post).
 
-Enjoy what you did as I am!
+I wanna hug you someday and say in person what great job you done!
 
 ------------
 
 
 
 
-  My sincere thanks to **Rick Olson**
+  I appreciate time of **Rick Olson**
 
-for spending time on [**faraday**](https://github.com/lostisland/faraday).
+for the idea and realization of [**faraday**](https://github.com/lostisland/faraday).
 
-I wanna hug you someday and say in person what great job you done!
+Keep doing the same great job as it’s terrific!
 
 ------------
 
@@ -83,9 +96,9 @@ I wanna hug you someday and say in person what great job you done!
 
 
 
-  Thank you very much [**Erik Michaels-Ober**](http://github.com/sferik), [**Wynn Netherland**](http://github.com/pengwynn)
+  I send all my hugs to [**Erik Michaels-Ober**](http://github.com/sferik), [**Wynn Netherland**](http://github.com/pengwynn)
 
-for making my life easier by creating [**faraday_middleware**](https://github.com/pengwynn/faraday_middleware).
+for making my work easier by creating and maintaining [**faraday_middleware**](https://github.com/pengwynn/faraday_middleware).
 
 I wanna shake your hand and say that wihtout your work on it I would spent much more time and power!
 
@@ -98,9 +111,9 @@ I wanna shake your hand and say that wihtout your work on it I would spent much 
 
   Thank you so much [**Michael Bleigh**](http://github.com/mbleigh), [**Jerry Cheung**](http://github.com/jch)
 
-for made this idea happened, I mean [**hashie**](https://github.com/intridea/hashie).
+for spending time on [**hashie**](https://github.com/intridea/hashie).
 
-Just be so cool as you are and remember that your work never being useless!
+I’m running out of words as I’m trying to show how great is your work! Stay cool!
 
 ------------
 
@@ -109,9 +122,9 @@ Just be so cool as you are and remember that your work never being useless!
 
 
 
-  I'd like to thank [**Michael Bleigh**](http://github.com/mbleigh), [**Josh Kalderimis**](http://github.com/joshk), [**Erik Michaels-Ober**](http://github.com/sferik), [**Pavel Pravosud**](http://github.com/rwz)
+  Thank you very much [**Michael Bleigh**](http://github.com/mbleigh), [**Josh Kalderimis**](http://github.com/joshk), [**Erik Michaels-Ober**](http://github.com/sferik), [**Pavel Pravosud**](http://github.com/rwz)
 
-for being so nice to create [**multi_json**](http://github.com/intridea/multi_json).
+for the terrific realization of [**multi_json**](http://github.com/intridea/multi_json).
 
 Enjoy what you did as I am!
 
@@ -122,22 +135,74 @@ Enjoy what you did as I am!
 
 
 
-  Thank you very much [**Keith Rarick**](http://github.com/kr), [**geemus (Wesley Beary)**](http://github.com/geemus)
+  My respectful thanks to [**Keith Rarick**](http://github.com/kr), [**geemus (Wesley Beary)**](http://github.com/geemus)
 
-for making my life easier by creating [**netrc**](https://github.com/geemus/netrc).
+for being so nice to create and maintain [**netrc**](https://github.com/geemus/netrc).
 
-Just be so cool as you are and remember that your work never being useless!
+I wanna hug you someday and say in person what amaizing job you done!
 
 ------------
 
 
 
 
-  I appreciate time of **Wynn Netherland**, **Erik Michaels-Ober**, **Clint Shryock**
+  I’m very thankful to **Wynn Netherland**, **Erik Michaels-Ober**, **Clint Shryock**
 
-for being so nice to create [**octokit**](https://github.com/pengwynn/octokit).
+for being so kind to create and maintain [**octokit**](https://github.com/pengwynn/octokit).
+
+Keep doing the same great job as it’s awesome!
+
+------------
+
+
+ ![Steven Baker](https://secure.gravatar.com/avatar/3c8c4b69930a102c3ca698cc4cbcbf0b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png) ![David Chelimsky](https://secure.gravatar.com/avatar/5d38ab152e1e3e219512a9859fcd93af?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png) ![Chad Humphries](https://secure.gravatar.com/avatar/7ce90d712fab09421b7f2cf955b9a4c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+
+
+
+  I'd like to thank [**Steven Baker**](http://github.com/srbaker), [**David Chelimsky**](http://github.com/dchelimsky), [**Chad Humphries**](http://github.com/spicycode)
+
+for making my life easier by creating and maintaining [**rspec-core**](http://github.com/rspec/rspec-core).
 
 Just be so cool as you are and remember that your work never being useless!
+
+------------
+
+
+ ![Steven Baker](https://secure.gravatar.com/avatar/3c8c4b69930a102c3ca698cc4cbcbf0b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png) ![David Chelimsky](https://secure.gravatar.com/avatar/5d38ab152e1e3e219512a9859fcd93af?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+
+
+
+  I send all my respect to [**Steven Baker**](http://github.com/srbaker), [**David Chelimsky**](http://github.com/dchelimsky)
+
+for made this idea happened, I mean [**rspec-expectations**](http://github.com/rspec/rspec-expectations).
+
+Enjoy what you did as I am!
+
+------------
+
+
+ ![Steven Baker](https://secure.gravatar.com/avatar/3c8c4b69930a102c3ca698cc4cbcbf0b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png) ![David Chelimsky](https://secure.gravatar.com/avatar/5d38ab152e1e3e219512a9859fcd93af?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+
+
+
+  My respectful thanks to [**Steven Baker**](http://github.com/srbaker), [**David Chelimsky**](http://github.com/dchelimsky)
+
+for the amaizing realization of [**rspec-mocks**](http://github.com/rspec/rspec-mocks).
+
+Just be so great as you are and remember that your work never being useless!
+
+------------
+
+
+ ![Steven Baker](https://secure.gravatar.com/avatar/3c8c4b69930a102c3ca698cc4cbcbf0b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png) ![David Chelimsky](https://secure.gravatar.com/avatar/5d38ab152e1e3e219512a9859fcd93af?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png)
+
+
+
+  I send all my hugs to [**Steven Baker**](http://github.com/srbaker), [**David Chelimsky**](http://github.com/dchelimsky)
+
+for creating and maintaining [**rspec**](http://github.com/rspec).
+
+I wanna hug you someday and say in person what great job you done!
 
 ------------
 
@@ -146,11 +211,11 @@ Just be so cool as you are and remember that your work never being useless!
 
 
 
-  My sincere thanks to [**gazay**](http://github.com/gazay)
+  Thank you very much [**gazay**](http://github.com/gazay)
 
-for spending time on [**share_some_love**](https://github.com/gazay/share_some_love).
+for being so kind to create and maintain [**share_some_love**](https://github.com/gazay/share_some_love).
 
-Enjoy what you did as I am!
+I’m running out of words as I’m trying to show how great is your work! Stay cool!
 
 ------------
 

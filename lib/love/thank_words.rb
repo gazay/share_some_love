@@ -38,12 +38,30 @@ module Love
 
       def find_words(area)
         fill_thank_words unless defined?(@thank_words)
-        @thank_words[area].to_a[rand(@thank_words[area].length)]
+        cache_words rand_words_from(area), area
       end
 
       def fill_thank_words
         @thank_words = \
           YAML.load(File.read(Love.root.join "../thank_words/#{Love.lang}.yml"))
+      end
+
+      def cache_words(words, area)
+        @previous ||= {}
+        @previous[area] ||= []
+        if @previous[area].count == @thank_words[area].count
+          @previous[area] = []
+        end
+        if @previous[area].include? words
+          find_words(area)
+        else
+          @previous[area] << words
+          words
+        end
+      end
+
+      def rand_words_from(area)
+        @thank_words[area].to_a[rand(@thank_words[area].length)]
       end
 
     end
