@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'bundler'
   s.add_dependency 'octokit'
+  s.add_dependency 'highline'
 
   s.add_development_dependency 'rspec'
 

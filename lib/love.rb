@@ -1,5 +1,6 @@
 require 'bundler'
 require 'octokit'
+require 'highline'
 require 'pathname'
 require 'erb'
 require 'yaml'
@@ -33,10 +34,9 @@ module Love
 
     def login_user
       puts 'Please, enter your github credentials that Octokit could work without github guest requests restrictions'
-      puts 'login:'
-      login = $stdin.gets.chomp
-      puts 'password:'
-      pass = $stdin.gets.chomp
+      hl = HighLine.new
+      login = hl.ask "Login: "
+      pass = hl.ask("Password: ") { |q| q.echo = '*' }
       @octokit = Octokit::Client.new login: login, password: pass
     end
 
