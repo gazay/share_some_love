@@ -1,13 +1,7 @@
 <% gem = member %>
-<% if gem.authors.all?(&:info) %>
- <%= gem.authors.map { |a| "![#{a.name}](#{a.info.avatar_url})" }.join(' ') %>
-<% end %>
+<%= gem.authors.map { |a| a.info ? "![#{a.name}](#{a.info.avatar_url})" : '' }.join(' ') %>
 
-<% if gem.authors.all?(&:info) %>
-  <%= ThankWords.begin_author %> <%= gem.authors.map { |it| "[**#{it.name}**](http://github.com/#{it.info.login})" }.join(', ') %>
-<% else %>
-  <%= ThankWords.begin_author %> <%= gem.authors.map(&:name).map { |it| "**#{it}**" }.join(', ') %>
-<% end %>
+<%= ThankWords.begin_author %> <%= gem.authors.map { |a| a.info ? "[**#{a.name}**](http://github.com/#{a.info.login})" : "**#{a.name}**" }.join(', ') %>
 <%= ThankWords.middle_author %> [**<%= gem.name %>**](<%= gem.url %>).
 
 <%= ThankWords.end_author %>

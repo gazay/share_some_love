@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.4
+
+  * Getting password with highlight by @jeg2
+
 ## 0.1.3
 
   * Cache words to reduce repeats
