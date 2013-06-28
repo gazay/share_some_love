@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.3
+
+  * Cache words to reduce repeats
+
 ## 0.1.2
 
   * More kind words and fixed readme
