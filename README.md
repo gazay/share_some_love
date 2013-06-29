@@ -63,7 +63,7 @@ I don't currently have styles and JS to make Web Projects love pages look pretty
 
 **P.S. Don't forget to mention your page or file in twitter using hashtag `#share_some_love`**
 
-### [All aboard!!!](http://www.youtube.com/watch?feature=player_embedded&v=SvsAqkOhI48)
+### [All aboard!!!](http://www.youtube.com/watch?v=Sr45DmZDjSc)
 
 ## Contributors
 
