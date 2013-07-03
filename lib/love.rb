@@ -33,7 +33,7 @@ module Love
     end
 
     def login_user
-      puts 'Please, enter your github credentials that Octokit could work without github guest requests restrictions'
+      $stdout.puts 'Please, enter your github credentials that Octokit could work without github guest requests restrictions'
       hl = HighLine.new
       login = hl.ask "Login: "
       pass = hl.ask("Password: ") { |q| q.echo = '*' }

@@ -48,9 +48,16 @@ describe Love do
 
   describe '#login_user' do
 
+    before do
+      $stdout.stub(:puts)
+      HighLine.stub(:new) {
+        mock = double('HighLine')
+        mock.stub(:ask)
+        mock
+      }
+    end
+
     it 'should ask user to login and create octokit client' do
-      STDIN.should_receive(:gets).twice.and_return 'dummy'
-      STDOUT.should_receive(:puts).exactly(3).times
       Love.login_user
       Love.octokit.class.should == Octokit::Client
     end
