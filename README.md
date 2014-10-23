@@ -7,8 +7,8 @@ spent their time to create and maintain open source software we use!
 
 ## The Problem
 
-Have you ever been thinking how important it is to say **Thank You** sometimes? 
-And what pleasure it is to get kind words back! Especially when something being a 
+Have you ever been thinking how important it is to say **Thank You** sometimes?
+And what pleasure it is to get kind words back! Especially when something being a
 hobby to you appears to be beneficial to somebody else. That's how open-source software
 works.
 
@@ -19,7 +19,7 @@ We just didn't have enough of time or will to see you need our support.
 **NOT GONNA HAPPEN AGAIN!**
 
 Let's share a bit more of love! It's really easy to say **Thank You** to incredible
-people that just made part of your work. That spent their personal time to maintain something 
+people that just made part of your work. That spent their personal time to maintain something
 so useful. That allowed you to learn something new.
 
 And with `share_some_love` it just got even easier.
@@ -73,7 +73,7 @@ I don't currently have styles and JS to make Web Projects love pages look pretty
 
 The MIT License
 
-Copyright (c) 2013 gazay
+Copyright (c) 2014 gazay
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
