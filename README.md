@@ -24,6 +24,10 @@ so useful. That allowed you to learn something new.
 
 And with `share_some_love` it just got even easier.
 
+<a href="https://evilmartians.com/?utm_source=share-some-love">
+<img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54">
+</a>
+
 ## Instalation
 
 ```bash
