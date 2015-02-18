@@ -21,16 +21,7 @@ module Love
       private
 
       def render_by(type_name, template_type, collection)
-        template = \
-          File.
-            read(
-              Love.root.join "../templates/#{template_type}/by_#{type_name}.#{template_type}.erb"
-            )
-        member_template = \
-          File.
-            read(
-              Love.root.join "../templates/#{template_type}/_#{type_name}.#{template_type}.erb"
-            )
+        template, member_template = templates(type_name, template_type)
 
         style_content = 'h1 { color: red; }'
         script_content = 'alert(1)'
@@ -42,15 +33,20 @@ module Love
         collection.each do |member|
           content << ERB.new(member_template).result(binding)
         end
-        if template_type == 'html'
-          File.open('./public/love.html', 'w+') do |f|
-            f.write ERB.new(template).result(binding)
-          end
-        else
-          File.open('./LOVE.md', 'w+') do |f|
-            f.write ERB.new(template).result(binding)
-          end
+
+        file_path = template_type == 'html' ? './public/love.html' : './LOVE.md'
+        File.open(file_path, 'w+') do |f|
+          f.write ERB.new(template).result(binding)
         end
+      end
+
+      def templates(type_name, template_type)
+        path_part1 = "../templates/#{template_type}/"
+        path_part2 = "_#{type_name}.#{template_type}.erb"
+        [
+          File.read(Love.root.join "#{path_part1}by#{path_part2}"),
+          File.read(Love.root.join "#{path_part1}#{path_part2}"),
+        ]
       end
 
     end
